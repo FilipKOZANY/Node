@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Žebříček</title>
+  </head>
+  <body>
+    <h1>Žebříček</h1>
+    <ul>
+      <% scores.forEach(function(score) { %>
+        <li><%= score.nickname %>: <%= score.points %> bodů</li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
